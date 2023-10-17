@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click it!</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="game-main">
+        <header>
+            <h2>Your Points: <span id="point"></span></h2>
+            <img id="menu" src="./assets/menu.svg">
+        </header>
+        <div id="settings" class="settings">
+            <div class="setting-title">
+                <h2>Settings</h2>
+                <img id="close" src="./assets/close.svg">
+            </div>
+            <div class="setting-content">
+                <div class="box active">
+                    <img src="./assets/default.png" value="./assets/default.png">
+                </div>
+                <div class="box">
+                    <img src="./assets/zsombor.png" value="./assets/zsombor.png">
+                </div>
+                <div class="box">
+                    <img src="./assets/markoka.png" value="./assets/markoka.png">
+                </div>
+                <div class="box">
+                    <img src="./assets/baluka.png" value="./assets/baluka.png">
+                </div>
+                <div class="box">
+                    <img src="./assets/martin.png" value="./assets/martin.png">
+                </div>
+            </div>
+            <p id="restart">Restart</p>
+        </div>
+        <div class="base">
+            <img id="event" src="./assets/default.png">
+        </div>
+    </div>
+    <script src="game.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

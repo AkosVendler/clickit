@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap');
+
+html {
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #141115;
+    overflow: hidden;
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    box-sizing: border-box;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main h1 {
+    font-size: 20rem;
+    margin: 0;
+    color: #586BA4;
+    font-weight: 900;
+}
+
+.main p {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #FBF5F3;
+    font-weight: 600;
+}
+
+.main button {
+    width: 35%;
+    height: 15%;
+    background: #586BA4;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Inter', sans-serif;
+    color: #FBF5F3;
+    font-size: 2rem;
+    margin-top: 100px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.main button:hover {
+    transform: scale(1.05);
+    transition: all ease-in-out 0.25s;
+}
+
+.game-main {
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    z-index: 1;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+header img {
+    cursor: pointer;
+}
+
+header h2 {
+    font-size: 3rem;
+    color: #586BA4;
+}
+
+header h2 span {
+    color: #FBF5F3;
+}
+
+.base {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.base img {
+    max-width: 800px;
+    max-height: 800px;
+    cursor: pointer;
+}
+
+.settings {
+    position: absolute;
+    z-index: 2;
+    width: 20%;
+    height: 90vh;
+    background: #586BA4;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 25px;
+    display: none;
+}
+
+.setting-title {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.setting-title h2 {
+    color: #141115;
+    font-size: 2rem;
+}
+
+.setting-title img {
+    cursor: pointer;
+}
+
+.setting-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    background: #FBF5F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#restart {
+    color: #DB3069;
+    font-size: 2rem;
+    background: #FBF5F3;
+    width: min-content;
+    padding: 10px 20px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.active {
+    border: #141115 solid 2px;
+}
